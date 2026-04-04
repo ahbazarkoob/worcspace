@@ -30,7 +30,7 @@ const Header = () => {
     workspace_items[0]
   );
   return (
-    <div className="py-2 px-4 bg-linear-to-r from-[#15102f] via-[#25205a] to-[#181741] flex justify-between flex-row items-center text-white/80 rounded-lg">
+    <div className="h-14 py-2 px-4 bg-linear-to-r from-[#15102f] via-[#25205a] to-[#181741] flex justify-between flex-row items-center text-white/80 rounded-lg">
       <div className="flex flex-row gap-4 items-center">
         <div className="flex flex-row gap-2 text-white font-semibold items-center">
           <Image src={logo} alt="Logo" className="h-8 w-8" />
