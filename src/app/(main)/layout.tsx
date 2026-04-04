@@ -5,7 +5,7 @@ const DashboardLayout = ({ children }: { children: React.ReactNode }) => {
     return (
         <>
             <AppSidebar />
-            <SidebarInset className="">
+            <SidebarInset className=" bg-white shadow-none m-0">
                 {children}
             </SidebarInset>
         </>

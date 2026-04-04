@@ -86,8 +86,8 @@ export function AppSidebar() {
   const pathname = usePathname();
 
   return (
-    <Sidebar variant="inset" className="mt-14">
-      <SidebarContent>
+    <Sidebar variant="inset" className="mt-14 bg-background">
+      <SidebarContent className="bg-background">
         {NAV_SECTIONS.map((section) => (
           <SidebarGroup key={section.label}>
             <SidebarGroupLabel>{section.label}</SidebarGroupLabel>

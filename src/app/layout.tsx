@@ -27,7 +27,7 @@ export default function RootLayout({
         <Header />
         <TooltipProvider>
           <SidebarProvider>
-            <div className="flex flex-1 overflow-hidden ">{children}</div>
+            <div className="flex flex-1 overflow-hidden bg-background ">{children}</div>
           </SidebarProvider>
         </TooltipProvider>
       </body>
