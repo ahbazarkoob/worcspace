@@ -11,7 +11,6 @@ import {
 import React, { useEffect } from "react";
 import { z } from "zod";
 import { useForm } from "react-hook-form";
-import { KnowledgeBaseCardInterface } from "./types/knowledge-base";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
@@ -24,6 +23,7 @@ import {
 } from "@/components/ui/select";
 import { Button } from "@/components/ui/button";
 import { Label } from "@/components/ui/label";
+import { KnowledgeBaseCardInterface } from "../types/knowledge-base";
 
 const knowledgeBaseSchema = z.object({
     name: z.string().min(1, "Name is required").max(100),
