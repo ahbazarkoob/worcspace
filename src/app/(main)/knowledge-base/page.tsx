@@ -135,7 +135,7 @@ const page = () => {
       </div>
       <div className="flex flex-col gap-4 overflow-hidden justify-between">
         {/* Content area */}
-        <div className="px-4 py-3 flex flex-col gap-4 border rounded-md shadow-sm">
+        <div className="px-4 py-3 flex flex-col gap-4 border rounded-md shadow-sm h-[calc(100vh-208px)] overflow-y-scroll">
           {paginated.length === 0 ? (
             <div className="flex-1 flex flex-col items-center justify-center text-muted-foreground gap-3 py-20">
               <FileQuestion className="size-14 text-muted-foreground/40" />
