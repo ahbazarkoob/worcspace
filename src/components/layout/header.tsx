@@ -52,7 +52,7 @@ const Header = () => {
           </SelectContent>
         </Select>
       </div>
-      <InputGroup className="max-w-xs border-none bg-[#423d78] rounded-sm">
+      <InputGroup className="max-w-xs border-none bg-[#423d78] rounded-sm hidden sm:flex">
         <InputGroupInput placeholder="Search..." />
         <InputGroupAddon>
           <Search />

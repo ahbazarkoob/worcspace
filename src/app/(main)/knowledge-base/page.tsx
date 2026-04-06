@@ -104,7 +104,7 @@ const page = () => {
   return (
     <div className="flex flex-col flex-1 gap-4 p-6 overflow-hidden bg-background">
       {/* Page header */}
-      <div className="flex items-center justify-between">
+      <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
         <h1 className="text-xl font-bold text-foreground">Knowledge Base</h1>
         <div className="flex items-center gap-3">
           {/* Search */}
@@ -135,7 +135,7 @@ const page = () => {
       </div>
       <div className="flex flex-col gap-4 overflow-hidden justify-between">
         {/* Content area */}
-        <div className="px-4 py-3 flex flex-col gap-4 border rounded-md shadow-sm h-[calc(100vh-208px)] overflow-y-scroll">
+        <div className="px-4 py-3 flex flex-col gap-4 border rounded-md shadow-sm h-[calc(100vh-255px)] sm:h-[calc(100vh-208px)] overflow-y-scroll">
           {paginated.length === 0 ? (
             <div className="flex-1 flex flex-col items-center justify-center text-muted-foreground gap-3 py-20">
               <FileQuestion className="size-14 text-muted-foreground/40" />
